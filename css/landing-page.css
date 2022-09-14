@@ -29,11 +29,15 @@ h3 a {
   font-size: 20px;
   border: 1px solid #000;
   border-radius: 15px;
-  padding: 5px
+  padding: 5px;
 }
 
 iframe {
   border-radius: 20px;
+  margin-top: 360px;
+  margin-left: 60px;
+  width: 300px;
+  height: 200px px;
   box-shadow: none !important;
 }
 
@@ -58,7 +62,7 @@ iframe {
   margin-bottom: -15px;
 }
 
-.list-inline>li {
+.list-inline > li {
   padding-right: 1px;
   float: left;
   padding-left: 4px;
@@ -132,7 +136,7 @@ iframe {
   padding-bottom: 20%;
 }
 
-.intro-message>h1 {
+.intro-message > h1 {
   margin: 0;
   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
   font-size: 5em;
@@ -144,7 +148,7 @@ iframe {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 
-.intro-message>h3 {
+.intro-message > h3 {
   /* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6); */
 }
 
@@ -153,17 +157,17 @@ iframe {
     padding-bottom: 15%;
   }
 
-  .intro-message>h1 {
+  .intro-message > h1 {
     font-size: 3em;
   }
 
-  ul.intro-social-buttons>li {
+  ul.intro-social-buttons > li {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
 
-  ul.intro-social-buttons>li:last-child {
+  ul.intro-social-buttons > li:last-child {
     margin-bottom: 0;
   }
 
@@ -237,13 +241,13 @@ iframe {
     font-size: 3em;
   }
 
-  ul.banner-social-buttons>li {
+  ul.banner-social-buttons > li {
     display: block;
     margin-bottom: 20px;
     padding: 0;
   }
 
-  ul.banner-social-buttons>li:last-child {
+  ul.banner-social-buttons > li:last-child {
     margin-bottom: 0;
   }
 }
@@ -267,7 +271,6 @@ p.copyright {
   margin-bottom: -330px;
   margin-left: -600px;
 }
-
 
 .fondodos {
   background-image: url(../img/fondodos.png);
@@ -433,7 +436,6 @@ p.copyright {
 /* RESPOSIVE */
 
 @media (max-width: 450px) {
-
   .video_text_ciel {
     margin-left: 180px;
     margin-top: 100px;
@@ -534,7 +536,7 @@ p.copyright {
     margin-top: -50;
   }
 
-  .intro-message>h3 {
+  .intro-message > h3 {
     text-shadow: 2px 2px 3px rgb(0 0 0 / 60%);
     font-size: 22px !important;
     width: 260px;
@@ -579,13 +581,11 @@ p.copyright {
     text-shadow: 2px 2px 3px rgb(0 0 0 / 60%);
   }
 
-
   .lineal {
     margin-left: 235px;
     margin-top: -200px;
     padding-top: 320px;
   }
-
 
   .parrafo3 {
     color: white;
@@ -830,4 +830,5 @@ input #formsubmit::hover {
 
 #formulario {
   margin-top: 1px;
+  margin-left: 16px;
 }
